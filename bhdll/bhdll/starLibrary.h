@@ -1,0 +1,15 @@
+const char * getMyName();
+int GetPlrRace(int id);
+int GetSelectedPlayerID();
+int getMyID();
+DWORD getWindowThreadID();
+LPCSTR GetPlrName(int plr_id);
+bool IsSC();
+wstring getServer();
+wstring getBinaryOriginalName();
+bool isInGame();
+bool isInLobby();
+bool isInBattleNet();
+std::string getBattleNetUserID();
+wstring getAbsFullPath();
+std::wstring getAbsPath();

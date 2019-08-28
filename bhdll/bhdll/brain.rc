@@ -1,0 +1,161 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 한국어 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_KOR)
+#ifdef _WIN32
+LANGUAGE LANG_KOREAN, SUBLANG_DEFAULT
+#pragma code_page(949)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x29L
+#else
+ FILEFLAGS 0x28L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041204b0"
+        BEGIN
+            VALUE "Comments", " "
+            VALUE "CompanyName", "BRAIN SERVER"
+            VALUE "FileDescription", "MINI Hack Checker"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "MINI Hack Checker"
+            VALUE "LegalCopyright", "Copyright (C) 2008"
+            VALUE "LegalTrademarks", " "
+            VALUE "OriginalFilename", "brain.bwl"
+            VALUE "PrivateBuild", " "
+            VALUE "ProductName", "MINI Hack Checker"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+            VALUE "SpecialBuild", " "
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x412, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MINI_CONFIG DIALOGEX 0, 0, 474, 263
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Config"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "확인",IDOK,351,242,50,14
+    PUSHBUTTON      "취소",IDCANCEL,417,242,50,14
+    CONTROL         "자동으로 전적얻지 않게하기(정베넷에서 체크 권장)",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,21,201,10
+    GROUPBOX        "게임방 입장 시",IDC_STATIC,6,8,220,70
+    GROUPBOX        "게임 시작 시",IDC_STATIC,6,85,220,70
+    CONTROL         "자동으로 /stats 하기",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,98,200,10
+    CONTROL         "자동으로 /whois 하기(아이디 스풋 확인)",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,16,110,200,10
+    GROUPBOX        "도배 막기",IDC_STATIC,7,165,220,70
+    CONTROL         "'#숫자' 붙은 메시지 차단",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,17,178,200,10
+    LTEXT           "최대 메시지 길이",IDC_STATIC,61,194,91,8
+    LTEXT           "중복 메세지 차단 시간",IDC_STATIC,61,209,91,8
+    EDITTEXT        IDC_EDIT3,17,191,40,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,17,207,40,12,ES_AUTOHSCROLL
+    GROUPBOX        "기타",IDC_STATIC,240,85,220,70
+    CONTROL         "자동으로 리플레이 저장",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,250,98,200,10
+    CONTROL         "UDP포트 검사 무시",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,250,110,200,10
+    GROUPBOX        "전문가용",IDC_STATIC,240,165,220,70
+    CONTROL         "패킷 저장",IDC_CHECK7,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,250,178,200,10
+    CONTROL         "패킷을 MailSlot으로",IDC_CHECK8,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,250,190,200,10
+    CONTROL         "Mini와 Wdetector간 상호확인 하기",IDC_CHECK9,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,250,203,200,10
+    GROUPBOX        "노트북 사용자 용",IDC_STATIC,240,8,220,70
+    CONTROL         "F9, F10, F11키 사용",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,250,21,200,10
+    LTEXT           "F9  - 핵 사용자를 다른 모든 플레이어들에게 알림 (Numpad 9)\r\nF11 - 플레이어 목록 보기 (Numpad 0)\r\nF12 - 플레이어 네트워크 상태 보기 (Numpad .)",IDC_STATIC,250,35,182,36
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MINI_CONFIG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 467
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 256
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 한국어 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
